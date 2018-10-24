@@ -1,7 +1,8 @@
-<h1>Home Page</h1>
-<h2>GLHF</h2>
-<%# <a href='about.html'>About Page</a> %>
-
-<%= link_to 'About', welcome_about_path %>
-<br/>
-<%= link_to 'Articles', articles_path %>
+<div class="center jumbotron">
+  <h1 id="welcome">Welcome to Alpha Blog!</h1>
+  <%= link_to "Sign Up", "#", class: "btn btn-info btn-lg btn-xlarge" %>
+  <p>
+  <br/>
+  <%= link_to 'About', welcome_about_path %> | <%= link_to 'Articles', articles_path %>
+  </p>
+</div>
